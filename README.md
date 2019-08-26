@@ -156,72 +156,72 @@ After many different iterations, the following models were tested with above fea
 
 1. Predicting AVE:
 
-Linear Regression Train R2 Score: 0.927265749628238
-Linear Regression Test R2 Score: 0.9245850874144554
-Ridge Train R2 Score: 0.9641036826810402
-Ridge Test R2 Score: 0.9501996596045186
-Lasso Train R2 Score: 0.9167955525718006
-Lasso Test R2 Score: 0.9140641297211587
-ElasticNet Train R2 Score: 0.9471689658637862
-ElasticNet Test R2 Score: 0.9453456477932288
-Random Forest Train R2 Score: 0.9935941144091776
-Random Forest Test R2 Score: 0.9543081856108968
-Linear Regression RMSE on New Data: 0.022072780140648625
-Ridge RMSE on New Data: 0.0323865503500996
-Lasso RMSE on New Data: 0.03298153698364595
-ElasticNet RMSE on New Data: 0.030976570580385922
-Random Forest RMSE on New Data: 0.016747452199047858
-Linear Regression R2 Score on New Data: 0.8157356416523764
-Ridge R2 Score on New Data: 0.6033050721934583
-Lasso R2 Score on New Data: 0.5885954929121789
-ElasticNet R2 Score on New Data: 0.6370941785539136
-Random Forest R2 Score on New Data: 0.893922137971072
+- Linear Regression Train R2 Score: 0.927265749628238
+- Linear Regression Test R2 Score: 0.9245850874144554
+- Ridge Train R2 Score: 0.9641036826810402
+- Ridge Test R2 Score: 0.9501996596045186
+- Lasso Train R2 Score: 0.9167955525718006
+- Lasso Test R2 Score: 0.9140641297211587
+- ElasticNet Train R2 Score: 0.9471689658637862
+- ElasticNet Test R2 Score: 0.9453456477932288
+- Random Forest Train R2 Score: 0.9935941144091776
+- Random Forest Test R2 Score: 0.9543081856108968
+- Linear Regression RMSE on New Data: 0.022072780140648625
+- Ridge RMSE on New Data: 0.0323865503500996
+- Lasso RMSE on New Data: 0.03298153698364595
+- ElasticNet RMSE on New Data: 0.030976570580385922
+- Random Forest RMSE on New Data: 0.016747452199047858
+- Linear Regression R2 Score on New Data: 0.8157356416523764
+- Ridge R2 Score on New Data: 0.6033050721934583
+- Lasso R2 Score on New Data: 0.5885954929121789
+- ElasticNet R2 Score on New Data: 0.6370941785539136
+- Random Forest R2 Score on New Data: 0.893922137971072
 
 2. Predicting RBI's:
 
-Linear Regression Train R2 Score: 0.9282337759628065
-Linear Regression Test R2 Score: 0.9311742490423233
-Ridge Train R2 Score: 0.9493429034345244
-Ridge Test R2 Score: 0.9430190274928
-Lasso Train R2 Score: 0.94951401869399
-Lasso Test R2 Score: 0.9465989701115267
-ElasticNet Train R2 Score: 0.9218334693805789
-ElasticNet Test R2 Score: 0.9250505846389491
-Random Forest Train R2 Score: 0.9887318112663641
-Random Forest Test R2 Score: 0.9362520045126567
-Linear Regression RMSE on New Data: 5.526281075333878
-Ridge RMSE on New Data: 26.189041645368615
-Lasso RMSE on New Data: 25.380538043708153
-ElasticNet RMSE on New Data: 24.269181261146084
-Random Forest RMSE on New Data: 5.213557078014037
-Linear Regression R2 Score on New Data: 0.8801086958714287
-Ridge R2 Score on New Data: -1.6925325162640654
-Lasso R2 Score on New Data: -1.5288518836501495
-ElasticNet R2 Score on New Data: -1.3122351284302
-Random Forest R2 Score on New Data: 0.8932937127367198
+- Linear Regression Train R2 Score: 0.9282337759628065
+- Linear Regression Test R2 Score: 0.9311742490423233
+- Ridge Train R2 Score: 0.9493429034345244
+- Ridge Test R2 Score: 0.9430190274928
+- Lasso Train R2 Score: 0.94951401869399
+- Lasso Test R2 Score: 0.9465989701115267
+- ElasticNet Train R2 Score: 0.9218334693805789
+- ElasticNet Test R2 Score: 0.9250505846389491
+- Random Forest Train R2 Score: 0.9887318112663641
+- Random Forest Test R2 Score: 0.9362520045126567
+- Linear Regression RMSE on New Data: 5.526281075333878
+- Ridge RMSE on New Data: 26.189041645368615
+- Lasso RMSE on New Data: 25.380538043708153
+- ElasticNet RMSE on New Data: 24.269181261146084
+- Random Forest RMSE on New Data: 5.213557078014037
+- Linear Regression R2 Score on New Data: 0.8801086958714287
+- Ridge R2 Score on New Data: -1.6925325162640654
+- Lasso R2 Score on New Data: -1.5288518836501495
+- ElasticNet R2 Score on New Data: -1.3122351284302
+- Random Forest R2 Score on New Data: 0.8932937127367198
 
 3. Predicting HR's:
 
-Linear Regression Train R2 Score: 0.9123830309085669
-Linear Regression Test R2 Score: 0.911395154652938
-Ridge Train R2 Score: 0.9839560929298725
-Ridge Test R2 Score: 0.9810375920991171
-Lasso Train R2 Score: 0.9895424128271637
-Lasso Test R2 Score: 0.9873949398289043
-ElasticNet Train R2 Score: 0.8732944355681218
-ElasticNet Test R2 Score: 0.873122027197329
-Random Forest Train R2 Score: 0.9914084916509395
-Random Forest Test R2 Score: 0.9565788564133643
-Linear Regression RMSE on New Data: 2.1945386661296733
-Ridge RMSE on New Data: 6.871186887441323
-Lasso RMSE on New Data: 6.6806050835395405
-ElasticNet RMSE on New Data: 5.7251772746060565
-Random Forest RMSE on New Data: 0.9997683023791144
-Linear Regression R2 Score on New Data: 0.6736586218690606
-Ridge R2 Score on New Data: -2.199257455812315
-Lasso R2 Score on New Data: -2.024247067469625
-ElasticNet R2 Score on New Data: -1.221076649274769
-Random Forest R2 Score on New Data: 0.932269482244308
+- Linear Regression Train R2 Score: 0.9123830309085669
+- Linear Regression Test R2 Score: 0.911395154652938
+- Ridge Train R2 Score: 0.9839560929298725
+- Ridge Test R2 Score: 0.9810375920991171
+- Lasso Train R2 Score: 0.9895424128271637
+- Lasso Test R2 Score: 0.9873949398289043
+- ElasticNet Train R2 Score: 0.8732944355681218
+- ElasticNet Test R2 Score: 0.873122027197329
+- Random Forest Train R2 Score: 0.9914084916509395
+- Random Forest Test R2 Score: 0.9565788564133643
+- Linear Regression RMSE on New Data: 2.1945386661296733
+- Ridge RMSE on New Data: 6.871186887441323
+- Lasso RMSE on New Data: 6.6806050835395405
+- ElasticNet RMSE on New Data: 5.7251772746060565
+- Random Forest RMSE on New Data: 0.9997683023791144
+- Linear Regression R2 Score on New Data: 0.6736586218690606
+- Ridge R2 Score on New Data: -2.199257455812315
+- Lasso R2 Score on New Data: -2.024247067469625
+- ElasticNet R2 Score on New Data: -1.221076649274769
+- Random Forest R2 Score on New Data: 0.932269482244308
 
 
 # Primary findings/conclusions/recommendations:
