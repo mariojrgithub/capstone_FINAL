@@ -245,6 +245,6 @@ After many different iterations, the following models were tested with above fea
 # Future Analysis:
 
 - Explore other models such as ExtraTreesRegressor, AdaBoostRegressor and BaggingRegressor
-- Test models on other offensive metrics such as OBP, or Slugging Percent and see I they can generalize well to these metrics.
--Test the models on select subsets of players such as by position or by era. This may reveal very interesting findings. 
+- Test models on other offensive metrics such as OBP, or Slugging Percent and see if they can generalize well to these metrics.
+- Test the models on select subsets of players such as by position or by era. This may reveal very interesting findings. 
 - There is truly a mountain of available data for baseball as well as other sports and am excited to apply what I have learned in this project to future projects.
