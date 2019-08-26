@@ -133,7 +133,7 @@ http://www.retrosheet.org.
 
 9. Split my final dataframe into previous years and final year so that I can test my models on unseen data and compare their results.
 
-4. Model Preparation:
+10. Model Preparation:
 
 - Used previous years to train and test on
 - Made sure that columns such as G, H, AB were left out
@@ -141,7 +141,7 @@ http://www.retrosheet.org.
 - Created polynomial features to my X variable to provide more data to my models
 - Grid search over several parameters for each model
 
-6. Models:
+11. Models:
 
 - For each target, HR's, RBI's, and AVE, I fit each of the following models:
 - Linear Regression
