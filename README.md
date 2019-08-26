@@ -239,7 +239,7 @@ After many different iterations, the following models were tested with above fea
 - More feature engineering can improve the models.
 - It is possible that there may have been some data leakage, further investigation is needed.
 - Computing power becomes an issue when fitting certain models. This greatly influences how much tuning can go into each model.
--The results are encouraging and I believe they can by extended to predict many other offensive metrics.
+- The results are encouraging and I believe they can by extended to predict many other offensive metrics.
 
 
 # Future Analysis:
