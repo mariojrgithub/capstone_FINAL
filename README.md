@@ -1,7 +1,7 @@
 # Capstone Project: Using  a Batter's Offensive stats to Predict Their Last Season Played HR's, RBI's and AVE
 
 ## Author: Mario Sanchez, Jr.
-## Date: 7/12/19
+## Date: 8/25/2019
 
 
 # Question:
