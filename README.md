@@ -233,7 +233,7 @@ After many different iterations, the following models were tested with above fea
 - This indicated to me that using an ensemble model was a better approach at more accurately predicting my targets.
 - I believe that I can achieve even better results if I log transform my target variable since there was a skewed distribution for two of the three targets.
 - The information obtained from the models such as the most important features can then be leveraged to direct scouting reports and help teams better evaluate their players performance. These models allow for a players past history as well as others from around the league to determine what type of batter they are.
-- This can then allow for a better forecast of a teams performance broken down by player.
+- This can then allow for a better forecast of a team's performance broken down by player.
 
 
 # Limitations and Assumptions:
