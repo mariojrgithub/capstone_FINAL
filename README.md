@@ -1,4 +1,4 @@
-# Capstone Project: Using  a Batter's Offensive stats to Predict Their Last Season Played HR's, RBI's and AVE
+# Capstone Project: Using  a Batter's Offensive Statistics to Predict Their Last Season Played Batting Average, Runs Batted-In (RBI's) and Homeruns
 
 ## Author: Mario Sanchez, Jr.
 ## Date: 8/25/2019
@@ -6,15 +6,16 @@
 
 # Question:
 
-Can regression models be created to accurately predict a players HR's, RBI's and AVE of their last season played?
+Can regression models be created to accurately predict a players batting average, runs batted-in (RBI's) and homeruns of their last season played?
 
 # Objectives:
 
-- Obtain baseball data from trusted sources
-- Learn how to aggregate the multiple csv files into the form I need
-- Pick multiple regression models and compare their performance on unseen data
+- Obtain baseball data from trusted sources.
+- Learn how to aggregate the multiple csv files into the form I need.
+- Pick multiple regression models and compare their performance on unseen data.
 - Which model performed best for each metric (HR's, RBI's, AVE)?
-- How can we use this information to improve our ability to predict a players performance using historic data?
+- Determine which features are most important to predicting each target.
+- How can we use this information to improve our ability to predict a players performance using historical data?
 
 
 # Data Description:
@@ -97,7 +98,7 @@ http://www.retrosheet.org.
 6. http://www.baseballdatascience.com/
 
 
-## Target: Last Year HR's, RBI's and HR's
+## Target: Last Year Played AVE, RBI's and HR's
 
 # EDA and Model Selection:
 
@@ -140,6 +141,7 @@ http://www.retrosheet.org.
 - Scaled my train, test and unseen data for some of the regression models
 - Created polynomial features to my X variable to provide more data to my models
 - Grid search over several parameters for each model
+- Created a pickle file of each fit and trained model for future evaluation.
 
 11. Models:
 
@@ -229,8 +231,8 @@ After many different iterations, the following models were tested with above fea
 - The RandomForest Regression model performed the best on predicting all metrics. 
 - Many of the models performed well on test data but poorly on unseen data.
 - This indicated to me that using an ensemble model was a better approach at more accurately predicting my targets.
-- I believe that I can achieve even better results if I log transform my target variable since there is a skewed distribution.
-- This information can then be leveraged to direct scouting reports and help teams better evaluate their players performance. These models allow for a players past history as well as others from around the league to determine what type of batter they are.
+- I believe that I can achieve even better results if I log transform my target variable since there was a skewed distribution for two of the three targets.
+- The information obtained from the models such as the most important features can then be leveraged to direct scouting reports and help teams better evaluate their players performance. These models allow for a players past history as well as others from around the league to determine what type of batter they are.
 - This can then allow for a better forecast of a teams performance broken down by player.
 
 
@@ -244,7 +246,7 @@ After many different iterations, the following models were tested with above fea
 
 # Future Analysis:
 
-- Explore other models such as ExtraTreesRegressor, AdaBoostRegressor and BaggingRegressor
-- Test models on other offensive metrics such as OBP, or Slugging Percent and see if they can generalize well to these metrics.
+- Explore other models such as ExtraTreesRegressor, AdaBoostRegressor and BaggingRegressor.
+- Test models on other offensive metrics such as on-base percentage (OBP), or Slugging Percent and see if they can generalize well to these metrics.
 - Test the models on select subsets of players such as by position or by era. This may reveal very interesting findings. 
 - There is truly a mountain of available data for baseball as well as other sports and am excited to apply what I have learned in this project to future projects.
